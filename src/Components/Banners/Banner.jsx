@@ -5,7 +5,7 @@ const Banner = () => {
         <div>
             {/* component 2 */}
             <div className="h-[800px] hero" style={{ backgroundImage: 'url(https://i.ibb.co/LZCwP79/Rectangle-1.png)' }}>
-                <div className="hero-overlay bg-opacity-30"></div>
+                <div className="bg-opacity-0 hero-overlay"></div>
                 <div className=" text-neutral-content">
                     <div>
                         {/* Components 1 */}

@@ -22,13 +22,13 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <div className='flex py-4 ml-40'>
+                    <div className='flex py-4 lg:ml-40'>
                         <img src={logo} alt="logo" />
                     <a className="text-xl btn btn-ghost"><Link to='/'>Docto <span className='text-orange-300'>Portal</span></Link></a>
                     </div>
                 </div>
                 <div className="hidden text-white navbar-center lg:flex">
-                    <ul className="px-1 menu menu-horizontal">
+                    <ul className="px-1 ml-56 font-bold menu menu-horizontal">
                         {navLinks}
                     </ul>
                 </div>
