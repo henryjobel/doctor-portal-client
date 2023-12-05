@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Shared/Navbar/Navbar';
 import Banner from '../../Components/Banners/Banner';
 import OurService from '../../Components/OurService/OurService';
+import HomeContact from '../../Components/HomeContact/HomeContact';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <div className='container mx-auto'>
                 <OurService></OurService>
+                <HomeContact></HomeContact>
             </div>
         </div>
     );
