@@ -11,7 +11,9 @@ const Home = () => {
             <Banner></Banner>
             <div className='container mx-auto'>
                 <OurService></OurService>
+                <div className='container mx-auto'>
                 <HomeContact></HomeContact>
+                </div>
             </div>
         </div>
     );
