@@ -3,6 +3,7 @@ import Navbar from '../../Shared/Navbar/Navbar';
 import Banner from '../../Components/Banners/Banner';
 import OurService from '../../Components/OurService/OurService';
 import HomeContact from '../../Components/HomeContact/HomeContact';
+import OurExpertDoctors from '../../Components/OurExpertDoctors/OurExpertDoctors';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
                 <OurService></OurService>
                 <div className='container mx-auto'>
                 <HomeContact></HomeContact>
+                <OurExpertDoctors></OurExpertDoctors>
                 </div>
             </div>
         </div>

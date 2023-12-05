@@ -1,0 +1,116 @@
+[
+    {
+      "doctorName": "Dr. Emily Johnson",
+      "specialist": "Cardiologist",
+      "category":"expert",
+      "address": "123 Main Street, Cityville, State",
+      "available": {
+        "Monday": "9:00 AM - 5:00 PM",
+        "Wednesday": "10:00 AM - 6:00 PM",
+        "Friday": "8:00 AM - 4:00 PM"
+      },
+      "price": "$150.00"
+    },
+    {
+      "doctorName": "Dr. Michael Smith",
+      "specialist": "Dermatologist",
+      "category":"expert",
+      "address": "456 Oak Avenue, Townsville, State",
+      "available": {
+        "Tuesday": "1:00 PM - 7:00 PM",
+        "Thursday": "9:00 AM - 3:00 PM",
+        "Saturday": "10:00 AM - 2:00 PM"
+      },
+      "price": "$120.00"
+    },
+    {
+      "doctorName": "Dr. Sarah Martinez",
+      "specialist": "Pediatrician",
+      "address": "789 Pine Road, Villageland, State",
+      "available": {
+        "Monday": "10:00 AM - 4:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Friday": "8:30 AM - 3:30 PM"
+      },
+      "price": "$130.00"
+    },
+    {
+      "doctorName": "Dr. Robert Davis",
+      "specialist": "Orthopedic Surgeon",
+      "address": "101 Elm Street, Hamletville, State",
+      "available": {
+        "Tuesday": "8:00 AM - 2:00 PM",
+        "Thursday": "12:00 PM - 6:00 PM",
+        "Saturday": "9:30 AM - 4:30 PM"
+      },
+      "price": "$180.00"
+    },
+    {
+      "doctorName": "Dr. Jessica White",
+      "specialist": "Gynecologist",
+      "category":"expert",
+      "address": "202 Maple Lane, Riverside, State",
+      "available": {
+        "Monday": "11:00 AM - 5:00 PM",
+        "Wednesday": "1:00 PM - 7:00 PM",
+        "Friday": "9:00 AM - 3:00 PM"
+      },
+      "price": "$160.00"
+    },
+    {
+      "doctorName": "Dr. John Taylor",
+      "specialist": "Neurologist",
+      "address": "303 Birch Boulevard, Lakeside, State",
+      "available": {
+        "Tuesday": "9:30 AM - 3:30 PM",
+        "Thursday": "11:00 AM - 5:00 PM",
+        "Saturday": "10:30 AM - 4:30 PM"
+      },
+      "price": "$200.00"
+    },
+    {
+      "doctorName": "Dr. Olivia Anderson",
+      "specialist": "Ophthalmologist",
+      "address": "404 Cedar Drive, Mountainview, State",
+      "available": {
+        "Monday": "8:30 AM - 2:30 PM",
+        "Wednesday": "12:00 PM - 6:00 PM",
+        "Friday": "10:00 AM - 4:00 PM"
+      },
+      "price": "$170.00"
+    },
+    {
+      "doctorName": "Dr. Samuel Brown",
+      "specialist": "Psychiatrist",
+      "address": "505 Redwood Court, Hilltop, State",
+      "available": {
+        "Tuesday": "10:00 AM - 4:00 PM",
+        "Thursday": "1:00 PM - 7:00 PM",
+        "Saturday": "9:00 AM - 3:00 PM"
+      },
+      "price": "$190.00"
+    },
+    {
+      "doctorName": "Dr. Megan Wilson",
+      "specialist": "Allergist",
+      "address": "606 Pine Circle, Valleytown, State",
+      "available": {
+        "Monday": "9:00 AM - 3:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Friday": "10:30 AM - 4:30 PM"
+      },
+      "price": "$140.00"
+    },
+    {
+      "doctorName": "Dr. Christopher Miller",
+      "specialist": "Urologist",
+      "address": "707 Oak Lane, Meadowville, State",
+      "available": {
+        "Tuesday": "8:00 AM - 2:00 PM",
+        "Thursday": "10:00 AM - 4:00 PM",
+        "Saturday": "9:30 AM - 3:30 PM"
+      },
+      "price": "$175.00"
+    }
+  ]
+  
