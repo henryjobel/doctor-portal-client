@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import DoctorCard from './DoctorCard';
 
 const OurExpertDoctors = () => {
     const [doctors,setDoctors] = useState([])
@@ -7,14 +8,17 @@ const OurExpertDoctors = () => {
         fetch('/fakeDoctorData.json')
         .then(res => res.json())
         .then(data =>{
-            const expert = data.filter(item => item.category === 'expert')
-            console.log(expert)
+            const popular = data.filter(item => item.category === 'expert')
+            setDoctors(popular)
+          
         })
     },[])
     return (
-        <div>
-            
-        </div>
+        <div className='grid lg:grid-cols-2 gap-10'>
+                {
+                    doctors.map(item => <DoctorCard  item={item}></DoctorCard>)
+                }
+            </div>
     );
 };
 
